@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function About() {
+export default function Portfolio() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>Portfolio</h1>
       <p>
             Having experience as a former professional musician performing as a
             Tuba player in various symphony orchestras and theme parks and
