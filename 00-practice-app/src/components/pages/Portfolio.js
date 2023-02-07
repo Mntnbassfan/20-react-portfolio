@@ -14,8 +14,8 @@ export default function Portfolio() {
               href="https://mntnbassfan.github.io/mod-1-mini-challenge/"
             >
               <img
+                class="picSize"
                 src="./images/app-4.jpeg"
-                class="app-1-img"
                 alt="application-1"
               />
               <figcaption>
@@ -27,8 +27,8 @@ export default function Portfolio() {
           <div>
             <a target="_blank" href="https://dcavinder.github.io/park_search/">
               <img
+                class="picSize"
                 src="./images/app-5.jpg"
-                class="app-2-img"
                 alt="application-2"
               />
               <figcaption>
@@ -40,8 +40,8 @@ export default function Portfolio() {
           <div>
             <a target="_blank" href="https://wealthify-app.herokuapp.com/">
               <img
+                class="picSize"
                 src="./images/app-6.jpg"
-                class="app-2-img"
                 alt="application-2"
               />
               <figcaption>
@@ -67,12 +67,14 @@ export default function Portfolio() {
               <strong>Coming Soon</strong>
             </figcaption>
           </div>
+
           <div>
             <img class="picSize" src="./images/app-3.jpg" alt="application-6" />
             <figcaption>
               <strong>Coming Soon</strong>
             </figcaption>
           </div>
+          
         </section>
       </section>
     </div>
