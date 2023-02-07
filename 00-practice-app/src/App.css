@@ -37,4 +37,8 @@
   .picSize {
     width: 300px;
     height: 300px;
+    padding: 20px;
+  }
+  body {
+    height: 100vh;
   }

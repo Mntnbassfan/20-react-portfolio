@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
     return (
-      <div className="headerFooter">
+      <div className="headerFooter sticky-bottom">
       <h1 className="text-center">Contact Information</h1>
       <div>
           <ul className="d-flex justify-content-center">
