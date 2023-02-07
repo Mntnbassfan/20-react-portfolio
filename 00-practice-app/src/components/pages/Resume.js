@@ -4,29 +4,7 @@ export default function Contact() {
   return (
     <div>
       <h1>Resume</h1>
-      <div>
-          <ul>
-            <li>
-              <p><strong>Phone Number: (720)233-4070</strong></p>
-            </li>
-
-            <li>
-              <p><strong>Email: Hannatuba@yahoo.com</strong></p>
-            </li>
-
-            <li>
-              <a href="https://github.com/Mntnbassfan">
-                Connect to my GitHub</a
-              >
-            </li>
-
-            <li>
-              <a href="https://www.linkedin.com/feed/">
-                Connect to my LinkedIn</a
-              >
-            </li>
-          </ul>
-        </div>
+      <a href="/Resume.pdf" download>Download Resume</a>
     </div>
   );
 }
