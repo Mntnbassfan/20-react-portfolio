@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Portfolio() {
   return (
-    <div>
+    <div class="flex d-inline">
       <h1>Portfolio</h1>
       <section class="completed-projects" id="completed-projects">
         <h2>Completed Projects</h2>
@@ -11,6 +11,15 @@ export default function Portfolio() {
           <div>
             <a target="_blank" href="https://mntnbassfan.github.io/mod-1-mini-challenge/"><img src="assets/images/app-1.jpeg" class="app-1-img" alt="application-1" />
             <figcaption><strong>New Web site project</strong></figcaption></a>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap" />
+            <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
           </div>
 
           <div>
@@ -24,12 +33,16 @@ export default function Portfolio() {
           </div>
 
           <div>
-            <img src="assets/images/app-4.jpg" alt="application-4" />
+            <img src="00-practice-app\public\images\app-1.jpeg" alt="application-4" />
             <figcaption><strong>Coming Soon</strong></figcaption>
           </div>
 
           <div>
-            <img src="assets/images/app-5.jpg" alt="application-4" />
+            <img src="00-practice-app\public\images\app-2.jpg" alt="application-5" />
+            <figcaption><strong>Coming Soon</strong></figcaption>
+          </div>
+          <div>
+            <img src="00-practice-app\public\images\app-3.jpg" alt="application-6" />
             <figcaption><strong>Coming Soon</strong></figcaption>
           </div>
         </section>
