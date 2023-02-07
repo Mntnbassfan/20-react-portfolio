@@ -1,25 +1,37 @@
 import React from 'react';
+// import Card from 'react-bootstrap/Card';
+
+// export default function Portfolio() {
+//   return (
+//     <Card style={{ width: '18rem' }}>
+//       <Card.Body>
+//         <Card.Title>Card Title</Card.Title>
+//         <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+//         <Card.Text>
+//           Some quick example text to build on the card title and make up the
+//           bulk of the card's content.
+//         </Card.Text>
+//         <Card.Link href="#">Card Link</Card.Link>
+//       </Card.Body>
+//     </Card>
+//   );
+// }
+
+
+
+
 
 export default function Portfolio() {
   return (
-    <div class="flex d-inline">
+    <div>
       <h1>Portfolio</h1>
       <section class="completed-projects" id="completed-projects">
         <h2>Completed Projects</h2>
 
-        <section class="projects">
+        <section class="projects d-flex flex-wrap">
           <div>
             <a target="_blank" href="https://mntnbassfan.github.io/mod-1-mini-challenge/"><img src="assets/images/app-1.jpeg" class="app-1-img" alt="application-1" />
             <figcaption><strong>New Web site project</strong></figcaption></a>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap" />
-            <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
           </div>
 
           <div>
@@ -33,16 +45,16 @@ export default function Portfolio() {
           </div>
 
           <div>
-            <img src="00-practice-app\public\images\app-1.jpeg" alt="application-4" />
+            <img class="picSize" src="./images/app-1.jpeg" alt="application-4" />
             <figcaption><strong>Coming Soon</strong></figcaption>
           </div>
 
           <div>
-            <img src="00-practice-app\public\images\app-2.jpg" alt="application-5" />
+            <img class="picSize" src="./images/app-2.jpg" alt="application-5" />
             <figcaption><strong>Coming Soon</strong></figcaption>
           </div>
           <div>
-            <img src="00-practice-app\public\images\app-3.jpg" alt="application-6" />
+            <img class="picSize" src="./images/app-3.jpg" alt="application-6" />
             <figcaption><strong>Coming Soon</strong></figcaption>
           </div>
         </section>
