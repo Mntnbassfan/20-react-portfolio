@@ -51,14 +51,16 @@ export default function Portfolio() {
           </div>
 
           <div>
-            <img
-              class="picSize"
-              src="./images/app-1.jpeg"
-              alt="application-4"
-            />
-            <figcaption>
-              <strong>Coming Soon</strong>
-            </figcaption>
+            <a target="_blank" href="https://poketrakerapp.herokuapp.com/">
+              <img
+                class="picSize"
+                src="./images/app-1.jpg"
+                alt="application-2"
+              />
+              <figcaption>
+                <strong>Class Project - 3 PokeTracker app</strong>
+              </figcaption>
+            </a>
           </div>
 
           <div>
@@ -74,7 +76,6 @@ export default function Portfolio() {
               <strong>Coming Soon</strong>
             </figcaption>
           </div>
-          
         </section>
       </section>
     </div>

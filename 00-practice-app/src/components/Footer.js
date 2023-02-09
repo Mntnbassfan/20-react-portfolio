@@ -21,7 +21,7 @@ function Footer() {
             </li>
 
             <li>
-              <a href="https://www.linkedin.com/feed/">
+              <a href="https://linkedin.com/in/tim-hanna-a37b83180">
                 Connect to my LinkedIn</a
               >
             </li>
