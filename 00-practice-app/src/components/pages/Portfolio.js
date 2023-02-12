@@ -51,7 +51,7 @@ export default function Portfolio() {
           </div>
 
           <div>
-            <a target="_blank" href="https://shrouded-wildwood-07576.herokuapp.com/">
+            <a target="_blank" href="https://poketrakerapp.herokuapp.com/">
               <img
                 class="picSize"
                 src="./images/app-1.jpg"
